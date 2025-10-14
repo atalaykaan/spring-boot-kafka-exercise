@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Entity
+@Table(name = "wikimedia_recentchange")
 @Getter
 @Setter
 public class WikimediaData {
@@ -13,6 +14,6 @@ public class WikimediaData {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Lob
+    @Column(columnDefinition = "text")
     private String wikiEventData;
 }
