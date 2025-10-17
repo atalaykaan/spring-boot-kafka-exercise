@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>taxi-book-driver</artifactId>
+    <artifactId>taxi-book-user</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
